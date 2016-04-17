@@ -7,7 +7,7 @@ library("ggplot2")
 library("wordcloud")
 
 # Read in reviews dataset
-reviews = read.csv("/tmp/reviews_full.csv", header = FALSE)
+reviews = read.csv("datasets/hungry_caterpillar.csv", header = FALSE)
 
 # Remove unnecessary columns
 useful <- reviews[1,1:10]
